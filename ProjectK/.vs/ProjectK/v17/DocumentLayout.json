@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|c:\\users\\oriol\\onedrive\\documentos\\github\\projectk\\projectk\\assets\\resources\\scripts\\player\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\player\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\cards\\scriptableobjects\\fireball\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\cards\\scriptableobjects\\fireball\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\cards\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\cards\\carddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|c:\\users\\oriol\\onedrive\\documentos\\github\\projectk\\projectk\\assets\\resources\\scripts\\decklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\decklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\ui_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ui_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|c:\\users\\oriol\\onedrive\\documentos\\github\\projectk\\projectk\\assets\\resources\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\player\\playercombatbehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\player\\playercombatbehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\enemies\\enemygroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\enemies\\enemygroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\cards\\cardbehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\cards\\cardbehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\enemies\\enemy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\enemies\\enemy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\ui\\battlebehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\ui\\battlebehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\assets\\resources\\scripts\\cards\\scriptableobjects\\fireball\\fireballbehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FDB1755-E54E-D0AA-0852-7953252286E5}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\scripts\\cards\\scriptableobjects\\fireball\\fireballbehavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +70,191 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Player\\Card.cs",
-              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Player\\Card.cs",
-              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Player\\Card.cs",
-              "RelativeToolTip": "Assets\\Resources\\Scripts\\Player\\Card.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DeckList.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\DeckList.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\DeckList.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\DeckList.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\DeckList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T09:46:12.326Z",
+              "WhenOpened": "2025-09-17T10:05:42.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
-              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T08:42:14.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Resources\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:54:16.007Z"
+              "WhenOpened": "2025-09-17T09:19:30.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Resources\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UI_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\UI_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\UI_Manager.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\UI_Manager.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\UI_Manager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:25:26.375Z"
+              "WhenOpened": "2025-09-17T08:57:33.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Enemies\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T08:46:20.221Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CardData.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\CardData.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Cards\\CardData.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\CardData.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Cards\\CardData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T08:31:49.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FireBall.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireBall.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireBall.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireBall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:58:20.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FireballBehavour.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireballBehavour.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireballBehavour.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireballBehavour.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Cards\\ScriptableObjects\\FireBall\\FireballBehavour.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:52:13.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\CardDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Cards\\CardDisplay.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\CardDisplay.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Cards\\CardDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T10:24:29.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CardBehavour.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\CardBehavour.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Cards\\CardBehavour.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Cards\\CardBehavour.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Cards\\CardBehavour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T10:20:54.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BattleManager.cs",
               "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\BattleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\BattleManager.cs",
               "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\BattleManager.cs",
               "RelativeToolTip": "Assets\\Resources\\Scripts\\BattleManager.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwHQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAwLcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:25:25.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T09:25:25.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyGroup.cs",
-              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
-              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
-              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
-              "RelativeToolTip": "Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCgAAAALAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "PlayerCombatBehavour.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Player\\PlayerCombatBehavour.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Player\\PlayerCombatBehavour.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Player\\PlayerCombatBehavour.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Player\\PlayerCombatBehavour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:24:58.983Z"
+              "WhenOpened": "2025-09-08T08:05:15.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
+              "Title": "BattleBehavour.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\UI\\BattleBehavour.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\UI\\BattleBehavour.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\UI\\BattleBehavour.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\UI\\BattleBehavour.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowFUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T09:04:45.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T09:25:26.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Enemy1.cs",
               "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\Enemy1.cs",
               "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Enemies\\Enemy1.cs",
               "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\Enemy1.cs",
               "RelativeToolTip": "Assets\\Resources\\Scripts\\Enemies\\Enemy1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T09:24:56.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyGroup.cs",
+              "DocumentMoniker": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
+              "ToolTip": "C:\\Users\\oriol\\OneDrive\\Documentos\\GitHub\\ProjectK\\ProjectK\\Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
+              "RelativeToolTip": "Assets\\Resources\\Scripts\\Enemies\\EnemyGroup.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T09:24:58.983Z"
             }
           ]
         }

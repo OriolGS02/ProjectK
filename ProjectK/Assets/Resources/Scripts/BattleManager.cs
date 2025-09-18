@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class BattleManager : MonoBehaviour
@@ -10,6 +11,8 @@ public class BattleManager : MonoBehaviour
 
     [SerializeField]
     PlayerMovement player; //create a script for the attacks/battle on player
+    [SerializeField]
+    PlayerCombatBehavour playerAttacks;
 
     [SerializeField]
     Transform enemiesPlace;
@@ -19,26 +22,34 @@ public class BattleManager : MonoBehaviour
     int rows = 0;
 
 
-    bool RoundEnd = false;
+    
     public int nEnemy = 0;
+    int playerRound;
 
     bool battleStart = false;
+    public bool playerAttacked=false;
+
+
+    bool OpenUi = false;
+
     // Start is called before the first frame update
     void Start()
     {
         gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
-
-        Debug.Log(playerPlace.position);
+        
+       
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
-       /* if (battleStart) { StartCoroutine(Battle()); }*/
+       
         
     }
+
+
+   
 
 
 
@@ -51,6 +62,10 @@ public class BattleManager : MonoBehaviour
             roundOrder.AddRange(list);
             player = individual.GetComponent<PlayerMovement>();
             player.fighting = true;
+
+            playerAttacks=individual.gameObject.GetComponent<PlayerCombatBehavour>();
+
+            nEnemy=roundOrder.Count;
             
         }
 
@@ -63,7 +78,8 @@ public class BattleManager : MonoBehaviour
     public void PlaceBattle() 
     {
         
-        player.transform.position = playerPlace.position+new Vector3(0,1,0);
+        player.transform.position = (playerPlace.position+new Vector3(0, player.transform.localScale.y/2, 0));
+        player.transform.position = playerPlace.position;
         player.transform.rotation=playerPlace.rotation;
 
         
@@ -98,34 +114,77 @@ public class BattleManager : MonoBehaviour
 
         battleStart = true;
         StartCoroutine(Battle());
-
+        gameManager.StartBattle();
+        
 
     }
 
     IEnumerator Battle() 
     {
-        yield return new WaitForSeconds(3);
+        
 
-        while (roundOrder.Count > 0)//or enemy alive
+        Debug.Log("in corroutine");
+        while (roundOrder.Count > 0 )//or player alive
         {
             if (nEnemy < roundOrder.Count)
             {
-                if (roundOrder[nEnemy].Attack())
+                if (roundOrder[nEnemy] == null)
                 {
-                    Debug.Log("enemy attacked");
-                    yield return new WaitForSecondsRealtime(5f); // enemy delay
-                    nEnemy++;
+                    roundOrder.RemoveAt(nEnemy);
+                    
                 }
+                else 
+                {
+                    if (roundOrder[nEnemy].Attack())
+                    {
+                        Debug.Log("enemy attacked");
+                        yield return new WaitForSecondsRealtime(2f); // enemy delay
+                        nEnemy++;
+                    }
+
+                    Debug.Log("enemy doing attack");
+                    yield return new WaitForSecondsRealtime(2);
+                }
+
+                
+                
             }
-            else
+            else 
             {
-                yield return new WaitForSecondsRealtime(10f); // player delay
-                Debug.Log("Player attack");
-                 // <-- add this when you implement player attack
+                yield return StartCoroutine(gameManager.StartBattle());
+
+                // wait until player performs an attack
+                bool playerDone = false;
+                while (!playerDone)
+                {
+                    if (playerAttacks.Attack())
+                    {
+                        Debug.Log("Player attacked!");
+                        playerDone = true;
+
+                    }
+                    yield return null; // check again next frame
+                }
+
+                // small pause before next round
+                yield return new WaitForSecondsRealtime(2f);
                 nEnemy = 0;
+
             }
-            
+                
+
         }
+
+        Debug.Log("Zero enemies left");
+
+        //call a function that show the rewards
+
+        
+        //call a function that return the player to the area
+        gameManager.OpenEndUI();
+        player.fighting = false;
+        yield break;
+        
 
        
 

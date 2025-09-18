@@ -19,11 +19,35 @@ public class Enemy1 : Enemy
 
     public override bool Attack()
     {
-
-        transform.Translate(Vector3.up);
+        for (int i = 0; i < 5; i++)
+        {
+            if (i > 3)
+            {
+                transform.Translate(Vector3.up);
+                return true;
+            }
+            
+            
+        }
         
         
+       return false;
 
-        return true;
+        
+    }
+
+
+    public override void Damaged(int damage)
+    {
+        Debug.Log($"Enemy Class: Damage recived: {damage}");
+
+       base.Damaged(damage);
+
+        if (hp<0)
+        {
+            Debug.Log("Dead :"+gameObject.name);
+            Destroy(gameObject);
+        }
+
     }
 }

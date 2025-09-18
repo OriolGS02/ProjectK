@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 {
     public float hp;
     public float damage;
+    public CardData card;
     
 
     public virtual bool Attack()
@@ -15,10 +16,10 @@ public class Enemy : MonoBehaviour
         return true;
     }
 
-    public virtual void Damaged()
+    public virtual void Damaged(int damaged)
     {
-
-       
+        hp -= damaged;
+        
     }
 
 }

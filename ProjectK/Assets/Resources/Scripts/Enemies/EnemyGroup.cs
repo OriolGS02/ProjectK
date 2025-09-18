@@ -27,6 +27,12 @@ public class EnemyGroup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        enemies.RemoveAll(e=> e== null);
+
+        if (enemies.Count==0) 
+        {
+            Destroy(this.gameObject);
+        }
         
     }
 
@@ -38,7 +44,10 @@ public class EnemyGroup : MonoBehaviour
 
             PlayerMovement player = other.GetComponent<PlayerMovement>();
             battleManager.SetOrder(enemies,player);
-           
+
+            
         }
     }
+
+
 }
